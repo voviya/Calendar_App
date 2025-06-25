@@ -1,0 +1,98 @@
+[
+  {
+    "title": "Team Meeting",
+    "date": "2025-06-23",
+    "time": "10:00",
+    "duration": "1h"
+  },
+  {
+    "title": "Dinner with Friends",
+    "date": "2025-07-23",
+    "time": "12:30",
+    "duration": "1h"
+  },
+  {
+    "title": "Yoga Session",
+    "date": "2025-06-24",
+    "time": "07:00",
+    "duration": "1h"
+  },
+  {
+    "title": "Doctor Appointment",
+    "date": "2025-06-19",
+    "time": "09:00",
+    "duration": "30m"
+  },
+  {
+    "title": "Project Deadline",
+    "date": "2025-05-28",
+    "time": "23:59",
+    "duration": "4h"
+  },
+  {
+    "title": "Birthday Party",
+    "date": "2025-05-02",
+    "time": "18:00",
+    "duration": "3h"
+  },
+  {
+    "title": "Conference Call",
+    "date": "2025-06-26",
+    "time": "15:00",
+    "duration": "1h"
+  },
+  {
+    "title": "Movie",
+    "date": "2025-06-26",
+    "time": "11:00",
+    "duration": "4h"
+  },
+  {
+    "title": "Coffee Date",
+    "date": "2025-06-26",
+    "time": "16:00",
+    "duration": "45m"
+  },
+  {
+    "title": "Grocery Shopping",
+    "date": "2025-06-25",
+    "time": "11:30",
+    "duration": "50m"
+  },
+  {
+    "title": "Summer Vacation",
+    "date": "2025-08-10",
+    "time": "08:00",
+    "duration": "All Day"
+  },
+  {
+    "title": "School Reopens",
+    "date": "2025-06-02",
+    "time": "09:00",
+    "duration": "6h"
+  },
+  {
+    "title": "Anniversary Dinner",
+    "date": "2025-10-15",
+    "time": "19:00",
+    "duration": "2h"
+  },
+  {
+    "title": "Thanksgiving",
+    "date": "2025-11-27",
+    "time": "11:00",
+    "duration": "All Day"
+  },
+  {
+    "title": "Christmas Eve",
+    "date": "2025-12-24",
+    "time": "18:00",
+    "duration": "Evening"
+  },
+  {
+    "title": "New Year's Eve",
+    "date": "2025-12-31",
+    "time": "22:00",
+    "duration": "3h"
+  }
+]

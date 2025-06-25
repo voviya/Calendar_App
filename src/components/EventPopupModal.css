@@ -1,0 +1,114 @@
+.event-popup-modal {
+  background: #fff;
+  color: #222;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(31,38,135,0.18), 0 2px 8px rgba(255,64,129,0.08);
+  padding: 24px 20px 20px 20px;
+  min-width: 220px;
+  max-width: 95vw;
+  width: 100%;
+  max-width: 370px;
+  position: relative;
+  margin: 0 12px;
+  overflow: visible;
+  animation: popup-fade-in 0.25s cubic-bezier(.4,1.4,.6,1) both;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  border: 1.5px solid #f3e7fa;
+}
+
+@keyframes popup-fade-in {
+  from { opacity: 0; transform: translateY(30px) scale(0.97);}
+  to   { opacity: 1; transform: translateY(0) scale(1);}
+}
+
+.event-popup-modal strong {
+  font-size: 1.15em;
+  color: #bb4dff;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+  text-align: center;
+  display: block;
+}
+
+.event-popup-list {
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.event-popup-item {
+  margin-bottom: 10px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: none;
+  border: 1px solid #eee;
+  word-break: break-word;
+  box-shadow: 0 1px 4px rgba(124,77,255,0.04);
+  transition: box-shadow 0.2s;
+}
+.event-popup-item:hover {
+  box-shadow: 0 4px 16px rgba(124,77,255,0.10);
+  background: linear-gradient(90deg, #f3e7fa 60%, #f7f7fa 100%);
+}
+
+.event-popup-title {
+  font-weight: 600;
+  color: #480555;
+  font-size: 1.08em;
+  margin-bottom: 2px;
+}
+.event-popup-time {
+  font-size: 13px;
+  color: #555;
+}
+.event-popup-empty {
+  color: #888;
+  text-align: center;
+  display: block;
+  margin: 16px 0;
+}
+.event-popup-conflict {
+  color: #ff1744;
+  font-weight: 600;
+  font-size: 13px;
+  margin-top: 4px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  background: #fff0f0;
+  border-radius: 6px;
+  padding: 4px 0;
+}
+
+.event-popup-modal .modal-close {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  background: none;
+  border: none;
+  color: #b39ddb;
+  font-size: 26px;
+  cursor: pointer;
+  transition: color 0.2s;
+  z-index: 2;
+}
+.event-popup-modal .modal-close:hover {
+  color: #2d0234;
+}
+
+@media (max-width: 600px) {
+  .event-popup-modal {
+    min-width: 0;
+    width: 98vw;
+    max-width: 98vw;
+    padding: 14px 6px 12px 6px;
+    font-size: 15px;
+  }
+  .event-popup-modal strong {
+    font-size: 1em;
+  }
+  .event-popup-item {
+    padding: 8px 8px;
+    font-size: 15px;
+  }
+}
